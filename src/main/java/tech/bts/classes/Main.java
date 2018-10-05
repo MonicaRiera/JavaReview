@@ -11,5 +11,6 @@ public class Main {
         calc.add(5);
         calc.divideBy(3);
         System.out.println(calc.getValue());
+        System.out.println("Operations: " + calc.getOperationCount());
     }
 }
