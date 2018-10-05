@@ -4,7 +4,7 @@ package tech.bts.classes.Kotlin
 class CalculatorKotlin(value: Double) {
 
     //private set makes the "setter" method private
-    // so we can access the file from the Main
+    // so we can access the file from the MainCalculator
     // but we can't change its value
     var value: Double = value
     private set
