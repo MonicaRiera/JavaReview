@@ -1,5 +1,7 @@
 package tech.bts.javaReview.simpleProgram
 
+import tech.bts.classes.MathUtilKotlin
+
 fun main(args: Array<String>) {
 
     println("Hello, world!")
@@ -52,14 +54,7 @@ fun main(args: Array<String>) {
     //val will not allow us to modify the finalPrice in the future
     //so we can't do this by mistake: finalPrice = price
     println("The final price is $finalPrice")
-    println(power(2.0, 10))
+    println(MathUtilKotlin.power(2.0, 10))
 
 }
 
-fun power (base : Double, exponent : Int) : Double {
-    var result = 1.0
-    for (i in 1..exponent) {
-        result *= base
-    }
-    return result
-}

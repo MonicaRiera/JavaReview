@@ -1,5 +1,7 @@
 package tech.bts.javaReview.simpleProgram;
 
+import tech.bts.classes.MathUtil;
+
 import java.util.*;
 
 public class Main {
@@ -57,18 +59,10 @@ public class Main {
 
         Main.printHello("Monica");
 
-        System.out.println(power(2, 10));
+        System.out.println(MathUtil.power(2, 10));
 
     }
 
-    /**Calculates the power of a given number*/
-    static double power (double base, double exponent) {
-        double result = 1;
-        for (int i = 0; i < exponent; i++) {
-            result *= base;
-        }
-        return result;
-    }
 
     /**Prints hello*/
     static void printHello (String name) {
