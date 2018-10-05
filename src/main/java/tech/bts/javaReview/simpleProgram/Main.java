@@ -1,6 +1,6 @@
 package tech.bts.javaReview.simpleProgram;
 
-import tech.bts.classes.MathUtil;
+import tech.bts.classes.Java.MathUtil;
 
 import java.util.*;
 

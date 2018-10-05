@@ -1,4 +1,4 @@
-package tech.bts.classes;
+package tech.bts.classes.Java;
 
 public class Main {
 
