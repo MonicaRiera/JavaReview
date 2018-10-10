@@ -13,12 +13,9 @@ public class StatsWithoutList {
 
         if (x > max) {
             max = x;
-        }
-
-        if (x < min) {
+        } else if (x < min) {
             min = x;
         }
-
 
     }
 
